@@ -1,6 +1,6 @@
-import { Button } from './components'
+import { Button } from '@/components'
 
-export function App() {
+export const App: React.FC = () => {
   return (
     <div className="w-screen h-screen flex">
       <div className="w-full h-full">
@@ -15,7 +15,7 @@ export function App() {
             src="./src/assets/ui_unicorn.png"
             className="w-12 h-12 object-cover"
           />
-          <span className="text-2xl">UI Unicorn</span>
+          <span className="text-2xl font-bold">UI Unicorn</span>
         </div>
         <span className="text-2xl">Nice to see you again</span>
         <div className="flex flex-col">
