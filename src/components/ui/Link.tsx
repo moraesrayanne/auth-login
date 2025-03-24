@@ -7,7 +7,7 @@ interface LinkProps {
 
 export const Link = ({ children, href, ...props }: LinkProps) => {
   return (
-    <a {...props} href={href} className="text-link ml-2 cursor-pointer">
+    <a {...props} href={href} className="text-link ml-2 cursor-pointer active:opacity-70 transition-opacity">
       {children}
     </a>
   )
